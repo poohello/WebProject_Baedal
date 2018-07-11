@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+form{
+  display: inline;
+}
+
+.memberlist_tr td{
+	font-size: 10pt;	
+	background-color: #2ac1bc;
+	font-weight: 800;
+}
+
+.memberlist_tr2 td{
+	padding-top: 5px;
+	font-size:9pt;
+}
+
+#memberlist{
+	text-align: center;
+	height:auto;
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+
+#head_list2{
+	margin-left:100px;
+}
+
+#bottom_page{
+  width:300px;
+  text-align:center;
+  margin:50px auto 0 auto;
+}

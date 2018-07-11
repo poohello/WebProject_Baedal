@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+
+.store_regi {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.ceo_info, .store_info{
+	width: 85%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.store_regi p{
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.store_regi table{
+	border: 1px black solid;
+	font-weight: bold;
+	width: 100%;
+}
+
+.ceo_info .td1{
+	height:46px;
+	width: 15%; 
+	background-color: #e1f4f4;	
+	padding-left: 10px;
+}
+.ceo_info .td3{
+	width: 35%;
+	background-color: #e1f4f4;	
+	padding-left: 10px;
+}
+
+/*이미지 크기 조절*/
+.ceo_info img{
+	height: 170px;	
+	width: 160px;	
+}
+.store_info img{
+	height: 270px;	
+	width: 270px;	
+}
+
+.store_info .td1{
+	height: 40px;
+	width: 15%; 
+	background-color: #93d7d7;	
+	padding-left: 10px;
+}
+.store_info .td3{
+	width: 35%;
+	background-color: #93d7d7;	
+	padding-left: 10px;
+	
+}
+.store_regi .td2{
+	width: 35%; 
+	padding-left: 10px;
+	border-right: 3px #c0c0c0 dashed;
+}
+
+
+.store_regi input, select{
+	height: 30px;
+	font-family: 'NANUMSQUARER';	
+	font-size: 11pt;
+	width: 90%;
+}
+.store_info #block2{
+	width:   42%;
+}
+.store_info #block3{
+	width:   25%;
+}
+
+.store_regi textarea{
+	font-family: 'NANUMSQUARER';	
+	height: 80px;
+	width: 90%;
+}
+
+
+/*버튼 있는 부분*/
+.store_regi_btn{
+	width: 85%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.store_regi_btn button{
+	font-family: 'NANUMSQUARER';	
+	font-size: 14pt;
+	display: inline-block;
+ 	border: 0;
+    margin: 30px 15px 30px 15px;
+	padding: 12px  20px  12px  20px;
+    background: #2ac1bc;    /*버튼색*/
+    color: white;
+}
+
+/*input style*/
+
+
+
+.store_info select{
+	height: 35px;
+}
+

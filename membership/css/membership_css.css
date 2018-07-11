@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#wrapper{
+	/* border : 1px solid black; */
+	margin: 0 auto;
+	width: 1000px;
+	overflow-x:visible;
+	overflow-y:visible;
+}
+
+body{
+	background-color: #2ac1bc;
+}
+
+div{
+	font-size:20px;
+}
+
+input{
+	width: 20px;
+	height: 20px;
+	background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+	background-image: linear-gradient(top, #f4f1ee, #fff);
+	border-radius: 50%;
+	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear;
+	margin-left: 800px;
+}
+
+button{
+	width: 40px;
+	height: 40px;
+	background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+	background-image: linear-gradient(top, #f4f1ee, #fff);
+	border-radius: 50%;
+	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+	-webkit-transition: all .1s linear;
+	transition: all .1s linear;
+}
+
+

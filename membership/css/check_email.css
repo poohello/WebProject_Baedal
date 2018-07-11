@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#wrapper{
+	border : 3px solid black;
+	margin: 0 auto;
+	width: 400px;
+	height: 330px; 
+	border-radius :7px;
+	
+	overflow-x:visible;
+	overflow-y:visible;
+}
+
+#message{
+	text-align: center;
+}
+
+#check{
+	text-align: center;
+	
+}
+
+#accept{
+	margin-left:50px;
+	margin: 0 auto;
+	overflow-x:visible;
+	overflow-y:visible;
+}

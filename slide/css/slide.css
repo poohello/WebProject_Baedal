@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.slide ul, li, button{
+	margin: 0 0;
+	padding: 0;
+} 
+
+.images img{
+	width: 1201.98px;
+	height: 650px;
+}
+
+.slide{
+	width: 1201.98px;
+	height: 650px;
+	overflow: hidden;
+	position: relative;
+	margin: 0, auto;
+	
+}
+.slide ul{
+	
+	width: 4900px;
+	list-style: none;
+	font-size: 0;
+}
+
+.slide ul li{
+	display: inline-block;
+}
+
+.prev #img1{
+	top : 240px;
+	position: absolute;
+	left:0;
+	z-index: 25;
+}
+
+.next #img2{
+	top : 240px;
+	position: absolute;
+	right:0;
+	z-index: 25;
+}

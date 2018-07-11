@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'NANUMSQUARER';
+	src: url(../common_css/font/NANUMSQUARER.ttf);
+}
+
+.logo img{
+	height: 40px;
+}
+
+body{
+	font-family: 'NANUMSQUARER';	
+}
+
+.store_top {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: bold;
+}
+
+#store_head {
+	font-size: 10pt;
+	display: inline-block;
+	width: 730px;
+	height: 25px;
+	text-align: left;
+}
+
+#store_head_list {
+	display: inline-block;
+	width: 180px;
+	height: 35px;
+}
+
+.store_top select {
+	width: 180px;
+	padding: .5em .5em;
+	font-family: 'NANUMSQUARER';
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 2px solid #280f07;
+	border-radius: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#search_window {
+	display: inline-block;
+	width:220px;
+	height: 35px;
+    border: 2px solid #280f07;
+    background: white;
+}
+
+#store_search {
+	display: inline-block;
+	width: 54px;
+	height: 35px;
+}
+
+
+.input_text {
+	display: inline-block;
+    width: 200px; height: 30px;
+    margin: 0;
+    border: 0;
+    line-height: 21px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}
+.store_search {
+	display: inline-block;
+    width: 54px; height: 34px;
+    margin-top: 6px; border: 0;
+    background: #280f07;    /*버튼색*/
+    color: white;
+}
+.store_search:hover {
+    background: #2ac1bc; /*마우스 올렸을대 색*/
+    cursor:pointer;
+}
+
+.store_list {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid red;
+}
+
+.store_list_info1, .store_list_info2 {
+	display: inline-block;
+	width: 49%;
+	height: 140px;
+	border: 1px solid red;
+}
+
+/*테이블 총 길이 */
+.store_list table{
+	border: 1px solid black;
+	width: 100%;
+	height: 135px;
+}
+
+.store_list table:hover {
+	background-color: #4c4c4c;
+	cursor:pointer;
+}
+
+.store_list table tr{
+	border: 1px solid black;
+}
+
+.store_list #store_list_img{
+	border: 1px solid black;
+	width: 130px;
+}
+
+
+.store_list table td{
+	border: 1px solid black;
+}
+
+

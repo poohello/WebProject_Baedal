@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'NANUMSQUARER';
+	src: url(../common_css/font/NANUMSQUARER.ttf);
+}
+
+.logo img{
+	height: 40px;
+}
+
+body{
+	font-family: 'NANUMSQUARER';	
+}
+
+.store_top {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: bold;
+}
+
+#store_head {
+	font-size: 10pt;
+	display: inline-block;
+	width: 730px;
+	height: 25px;
+	text-align: left;
+}
+
+#store_head_list {
+	display: inline-block;
+	width: 180px;
+	height: 35px;
+}
+
+.store_top select {
+	width: 180px;
+	padding: .5em .5em;
+	font-family: 'NANUMSQUARER';
+	background:
+		url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+		no-repeat 95% 50%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 2px solid #280f07;
+	border-radius: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+#search_window {
+	display: inline-block;
+	width:220px;
+	height: 35px;
+    border: 2px solid #280f07;
+    background: white;
+}
+
+#store_search {
+	display: inline-block;
+	width: 54px;
+	height: 35px;
+}
+
+
+.input_text {
+	display: inline-block;
+    width: 200px; height: 30px;
+    margin: 0;
+    border: 0;
+    line-height: 21px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}
+.store_search {
+	display: inline-block;
+    width: 54px; height: 34px;
+    margin-top: 6px; border: 0;
+    background: #280f07;    /*버튼색*/
+    color: white;
+}
+.store_search:hover {
+    background: #2ac1bc; /*마우스 올렸을대 색*/
+    cursor:pointer;
+}
+
+
+/*업체 정보 테이블 div*/
+.store_list {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid red;
+}
+
+.store_list_info1{
+	display: inline-block;
+	width: 72%;
+	height: 150px;
+	border: 1px solid red;
+}
+
+/*테이블 총 길이 */
+.store_list table{
+	border: 1px solid black;
+	width: 100%;
+	height: 150px;
+}
+
+.store_list #store_table:hover {
+	background-color: #4c4c4c;
+	cursor:pointer;
+}
+
+.store_list table tr{
+	border: 1px solid black;
+}
+
+.store_list #store_list_img{
+	border: 1px solid black;
+	width: 150px;
+}
+
+
+.store_list table td{
+	border: 1px solid black;
+}
+/*매장 상태 표시 테이블*/
+.store_list_info2{
+	display: inline-block;
+	width: 25%;
+	height: 150px;
+	border: 1px solid red;
+}
+
+/*버튼설정*/
+.store_btn {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+ 	border: 1px solid blue;
+}
+
+#store_regi, #store_del{
+	font-family: 'NANUMSQUARER';	
+	font-size: 15pt;
+	display: inline-block;
+ 	border: 0;
+    margin: 20px 15px 20px 15px;
+	padding: 13px  20px  13px  20px;
+    background: #2ac1bc;    /*버튼색*/
+    color: white;
+}
+
+#store_regi, #store_del:hover {
+    background: #2ac1bc; /*마우스 올렸을대 색*/
+  	cursor:pointer;   
+}
+
+.store_list_info2 .tr1, .tr2 ,.tr3 #td1, .tr4 #td1{
+	font-weight: bold;
+}
+
+.tr2 {
+	background-color: #72e0dd;
+}
+
+
+

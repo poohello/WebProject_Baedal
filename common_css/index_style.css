@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'NANUMSQUARER';
+	src: url(../common_css/font/NANUMSQUARER.ttf);
+}
+
+@font-face {
+	font-family: 'BMDOHYEON_ttf';
+	src: url(../common_css/font/BMDOHYEON_ttf.ttf);
+}
+
+body {
+	margin: 0 0 0 0;
+	overflow: scroll;
+	font-family: NANUMSQUARER;
+	border: 1px solid black; /*실 선 */
+}
+
+header {
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto 0 auto; /*중앙 정렬*/
+	border: 1px solid black; /*실 선 */
+}
+
+header li {
+	float: right;
+	margin-right: 15px; /*li요소 마진 주기 */
+	display: inline; /*인라인으로 정렬*/
+	font-size: 13px; /*폰트 사이즈*/
+	font-weight: bold;
+	font-family: NANUMSQUARER; /*폰트 */
+	
+}
+
+nav {
+	width: 1200px;
+	height: 100px;
+	margin: 2px auto 0 auto;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+
+nav li {
+	display: inline; /*인라인으로 정렬*/
+	margin-top: 5px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+/* top 마우스 오버 이벤트 */
+.login a:link{
+	text-decoration: none;	
+	color: #444444;
+}
+.login a:visited{
+	text-decoration: none;	
+	color: #444444;
+}
+
+.login a:active{
+	text-decoration: none;	
+	color: #eddb82;
+}
+
+.login a:hover{
+	text-decoration: none;	
+	color: #eddb82;
+}
+
+/* menu 마우스 오버 이벤트 */
+.hover2 {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+.hover2:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	transform: translate3d(0, 100%, 0);
+	transition: transform .2s cubic-bezier(.84, .41, 0, 1.2), opacity .2s
+		ease-out;
+}
+
+.hover2:hover:after, .hover1:focus:after {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+.hover2:focus{
+	outline: none; color: #2ac1bc;
+}
+.hover2:after{
+	 background-color: #2ac1bc;
+} 
+
+.menu1_1 a{
+  text-decoration: none;
+  color: #020202;
+}
+
+.search {
+	top: 300px;
+	
+	position:absolute;
+	width: 1200px;
+	text-align: center;
+	z-index: 20;
+}
+
+
+#p2{
+	font-family: 'BMDOHYEON_ttf';
+	font-size: 50pt;
+	color : white;
+}
+
+section{
+	
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  border-bottom: solid black 1px;
+}
+
+
+
+footer {
+	width: 1200px;
+	margin: 20px auto 0 auto;
+	padding-top: 0;
+	height: 120px;
+	border: 1px solid black;
+}
+
+/*로고div*/
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	height : 100px;
+	wight: auto;
+}
+
+
+/* 검색창 */
+* {
+	box-sizing: border-box;
+}
+
+
+d1:after{
+	position : absolute;
+	content: "";
+	background: rgba(200, 255, 200, 0.1);
+}
+
+form {
+	position: relative;
+	width: 310px;
+	margin: 0 auto;
+}
+
+.search input {
+	width: 100%;
+	height: 48px;
+	padding-left: 10px;
+	border: 2px solid #2ac1bc;
+	outline: none;
+	background: #F9F0DA;
+	color: #9E9C9C;
+	font-size: 15pt;
+	font-family:NANUMSQUARER; 
+}
+
+.search .btn_submit {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: 48px;
+	height: 48px;
+	border: none;
+	background: #2ac1bc;
+	cursor: pointer;
+}
+
+.search .btn_submit:before {
+	font-family:NANUMSQUARER; 
+	font-size: 16px;
+	color: #F9F0DA;
+}
+
+#id{
+	margin : 5px;
+}
+#option1{
+	display: inline-block;
+}
+.clearfix2{
+	float: left;
+	height: 10px;
+	padding-top: 12px;
+}
+
+.form { 
+  padding: 10px;
+  position: absolute;
+  display: none;
+  top: 200px;
+  left: 400px;
+  right: 400px;
+  width:400px;
+  z-index: 30;
+  background: #FFFFFF;
+  max-width: 410px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  height:400px;
+}
+ 
+.form input{	   /* 아이디패스워드 쓰는 텍스트창의 내부 */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'NANUMSQUARER';
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form #id {  /* 로그인 아이디찾기 비번찾기 회원가입 버튼 */
+  /* font-family: "Roboto", sans-serif; */
+  display: block;
+  font-family: 'NANUMSQUARER';
+  font-weight:bold;
+  text-transform: uppercase;
+  background: #2ac1bc;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  text-decoration: none
+}
+
+.form .message {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.close img{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+.close_div {
+	float: right;
+}
+.login_top {
+	width : 100%;
+	margin: 0 20px;
+}
+
+
+
+
+
+
+
+

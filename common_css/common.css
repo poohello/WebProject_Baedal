@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'NANUMSQUARER';
+	src: url(../common_css/font/NANUMSQUARER.ttf);
+}
+
+@font-face {
+	font-family: 'BMDOHYEON_ttf';
+	src: url(../common_css/font/BMDOHYEON_ttf.ttf);
+}
+
+body {
+	margin: 0 0 0 0;
+	overflow: scroll;
+	font-family: NANUMSQUARER;
+	border: 1px solid black; /*실 선 */
+}
+
+header {
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto 0 auto; /*중앙 정렬*/
+	border: 1px solid black; /*실 선 */
+}
+
+header li {
+	float: right;
+	margin-right: 15px; /*li요소 마진 주기 */
+	display: inline; /*인라인으로 정렬*/
+	font-size: 13px; /*폰트 사이즈*/
+	font-weight: bold;
+	font-family: NANUMSQUARER; /*폰트 */
+	
+}
+
+.logo img{
+	height: 40px;
+}
+
+.logo{
+	text-align: center;
+}
+
+
+nav {
+	width: 1200px;
+	height: 100px;
+	margin: 2px auto 0 auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	margin-right: 25px;
+	font-weight: bold;
+}
+
+.login a:link{
+	text-decoration: none;	
+	color: #444444;
+}
+.login a:visited{
+	text-decoration: none;	
+	color: #444444;
+}
+
+.login a:active{
+	text-decoration: none;	
+	color: #eddb82;
+}
+
+.login a:hover{
+	text-decoration: none;	
+	color: #eddb82;
+}
+
+/* menu 마우스 오버 이벤트 */
+.hover2 {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+.hover2:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	transform: translate3d(0, 100%, 0);
+	transition: transform .2s cubic-bezier(.84, .41, 0, 1.2), opacity .2s
+		ease-out;
+}
+
+.hover2:hover:after, .hover1:focus:after {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+.hover2:focus{
+	outline: none; color: #2ac1bc;
+}
+.hover2:after{
+	 background-color: #2ac1bc;
+} 
+
+.menu1_1 a{
+  text-decoration: none;
+  color: #020202;
+}
+
+
+footer {
+	width: 1200px;
+	margin: 20px auto 0 auto;
+	padding-top: 0;
+	height: 120px;
+	border: 1px solid black;
+}
+
